@@ -1,6 +1,6 @@
 {
   "name": "ms-graph-adapter",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "description": "Microsoft Graph Adapter for Open Integration Hub (based on https://github.com/elasticio/outlook/).",
   "homepage": "https://agindo.de/",
   "author": "elastic.io GmbH <info@elastic.io> (https://www.elastic.io/), agindo GmbH <info@agindo.de> (https://agindo.de/)",
@@ -14,11 +14,11 @@
     "test-watch": "nodemon --exec \"npm test \""
   },
   "engines": {
-    "node": "8.16.2",
-    "npm": ">=5.4"
+    "node": ">=16.0",
+    "npm": ">=8.19"
   },
   "dependencies": {
-    "@openintegrationhub/ferryman": "^1.6.3",
+    "@openintegrationhub/ferryman": "^2.2.0",
     "bluebird": "^3.5.4",
     "co": "^4.6.0",
     "lodash": "^4.17.21",

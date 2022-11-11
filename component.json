@@ -35,6 +35,10 @@
     }
   },
   "triggers": {
+    "getMe": {
+      "title": "getMe",
+      "main": "./lib/triggers/getMe.js"
+    },
     "getContacts": {
       "title": "getContacts",
       "main": "./lib/triggers/getContacts.js",

@@ -1,13 +1,9 @@
-FROM node:10-alpine
+FROM node:16-alpine
 LABEL NAME="ms-office-adapter"
-LABEL MAINTAINER Philipp Hoegner "philipp.hoegner@cloudecosystem.org"
+
 LABEL SUMMARY="This image is used to start the MS Office Adapter for OIH"
 
-RUN apk --no-cache add \
-    python \
-    make \
-    g++ \
-    libc6-compat
+RUN apk add --no-cache libc6-compat
 
 WORKDIR /usr/src/app
 
